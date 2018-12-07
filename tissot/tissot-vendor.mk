@@ -1,4 +1,5 @@
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -38,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/lib/libmorphohht4.0.so:system/lib/libmorphohht4.0.so \
     vendor/xiaomi/tissot/proprietary/lib/libskia-v27.so:system/lib/libskia-v27.so \
     vendor/xiaomi/tissot/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
-    vendor/xiaomi/tissot/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/xiaomi/tissot/proprietary/lib64/hw/gf_fingerprint.default.so:system/lib64/hw/gf_fingerprint.default.so \
     vendor/xiaomi/tissot/proprietary/lib64/libgf_algo.so:system/lib64/libgf_algo.so \
     vendor/xiaomi/tissot/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
@@ -401,11 +401,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
+    vendor/xiaomi/tissot/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/libmorpho_group_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_group_portrait.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama_gp.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/xiaomi/tissot/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 
 PRODUCT_PACKAGES += \
-    libts_detected_face_hal \
     libts_face_beautify_hal
