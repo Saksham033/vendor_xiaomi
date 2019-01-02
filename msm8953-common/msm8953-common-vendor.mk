@@ -560,6 +560,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     CNEService \
     ims \
+    imssettings \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService
